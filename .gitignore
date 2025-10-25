@@ -1,0 +1,65 @@
+# ===============================
+# 🌐 General
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ===============================
+# ⚙️ Environment Files
+# ===============================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===============================
+# 🧱 Build Output
+# ===============================
+.next/
+out/
+dist/
+build/
+.cache/
+.vercel/
+.render/
+
+# ===============================
+# 📦 Logs & OS Files
+# ===============================
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ===============================
+# 💻 Editor Settings
+# ===============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ===============================
+# 🧪 Testing
+# ===============================
+coverage/
+jest-test-results.json
+
+# ===============================
+# 📷 Uploads / Temporary
+# ===============================
+uploads/
+tmp/
+temp/
+
+# ===============================
+# 🔐 Misc
+# ===============================
+*.pem
+*.key
+*.crt
